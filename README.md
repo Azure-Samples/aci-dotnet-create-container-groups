@@ -1,10 +1,10 @@
 ---
-services: Aci
-platforms: .Net
+services: Container-Instance
+platforms: dotnet
 author: milismsft
 ---
 
-# Getting Started with Aci - Manage With Multiple Container Images - in .Net #
+# Create Container Group with multiple instances and container images using C# #
 
           Azure Container Instance sample for managing container instances.
              - Create an Azure container group with two container instances using Docker images "microsoft/aci-helloworld" and "microsoft/aci-tutorial-sidecar"
@@ -16,7 +16,7 @@ author: milismsft
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/aci-dotnet-create-container-groups.git
 
