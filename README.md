@@ -21,10 +21,10 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
     git clone https://github.com/Azure-Samples/aci-dotnet-create-container-groups.git
 
     cd aci-dotnet-create-container-groups
-
-    dotnet restore
-
-    dotnet run
+  
+    dotnet build
+    
+    bin\Debug\net452\ManageWithMultipleContainerImages.exe
 
 ## More information ##
 
