@@ -1,4 +1,7 @@
 ---
+page_type: sample
+languages: java
+products: azure
 services: Container-Instance
 platforms: dotnet
 author: yaohaizh
