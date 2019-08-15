@@ -4,17 +4,17 @@ languages:
 - csharp
 products:
 - azure
-services: Container-Instance
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Container-Instance
+- platforms: dotnet
 ---
 
 # Create Container Group with multiple instances and container images using C# #
 
-          Azure Container Instance sample for managing container instances.
-             - Create an Azure container group with two container instances using Docker images "microsoft/aci-helloworld" and "microsoft/aci-tutorial-sidecar"
-             - Retrieve container log content
-             - Delete the container group resource
+ Azure Container Instance sample for managing container instances.
+    - Create an Azure container group with two container instances using Docker images "microsoft/aci-helloworld" and "microsoft/aci-tutorial-sidecar"
+    - Retrieve container log content
+    - Delete the container group resource
 
 
 ## Running this Sample ##
