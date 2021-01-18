@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Container-Instance
-- platforms: dotnet
+  services: Container-Instance
+  platforms: dotnet
 ---
 
 # Create Container Group with multiple instances and container images using C# #
